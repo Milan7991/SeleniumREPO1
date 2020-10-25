@@ -1,0 +1,20 @@
+{
+	"code": 200,
+	"meta": {
+		"pagination": {
+			"total": 1,
+			"pages": 1,
+			"page": 1,
+			"limit": 20
+		}
+	},
+	"data": [{
+		"id": 1,
+		"name": "Prof. Raj Varrier",
+		"email": "prof_varrier_raj@emard-grimes.net",
+		"gender": "Female",
+		"status": "Active",
+		"created_at": "2020-10-24T03:50:03.736+05:30",
+		"updated_at": "2020-10-24T03:50:03.736+05:30"
+	}]
+}
