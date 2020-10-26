@@ -1,16 +1,15 @@
-Feature: check returned countries by API
+Feature: Deleting a user
 
 Background:
 
 	* url 'https://reqres.in'
 	* header Accept = 'application/json'
-Scenario: get list of all countries
-	Given path '/api/users'
+Scenario: Deleting the User
+	Given path '/api/users/2'
 	
-	And request { name: 'Milan', job: 'Doctor', updatedAt: '2020-10-25T12:39:20.415Z'}
 
-	When method POST
-	Then status 201
-	* string temp = response
-    *  match temp contains 'Doctor'
+
+	When method DELETE
+	Then status 204
+	
 	
