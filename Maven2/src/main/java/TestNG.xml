@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Automate suite">
+
+<test name="running diff classes">
+<classes>
+<class name= "GoogleTest"/>
+<class name= "ExceptionTimeOut"/>
+<class name= "InvocationTest"/>
+
+</classes>
+
+
+</test>
+</suite>

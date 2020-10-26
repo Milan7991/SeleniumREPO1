@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Automate suite">
+
+<test name="running diff classes">
+<classes>
+<class name= "com.qa.test.DemoTest"/>
+<class name= "com.qa.test.DemoTest1"/>
+
+</classes>
+
+</test>
+</suite>
